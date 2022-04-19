@@ -104,16 +104,15 @@ h6 {
 	font-weight: 300
 }
 
+.linkNum:link {
+	color: #065eaa;
+}
+
 .linkNum:hover {
 	cursor: pointer;
 	color: rgb(0, 255, 255);
+	text-decoration: underline;
 }
-
-/*
-#2F2E2E 
-#B0AAA9 
-#FFFFFF
-*/
 
 ul {
 	list-style: none;
@@ -123,7 +122,7 @@ ul {
 	margin: 16px 0;
 }
 
-#firstBlock {
+.firstBlock {
 	width: 100%;
 	flex-direction: row;
 	flex-wrap: wrap;
@@ -193,8 +192,12 @@ ul {
 	width: 30%;
 }
 
+.firstP {
+	font-weight: 300;
+	font-size: large;
+}
 
-#form1 {
+.form1 {
 	background: #000000;
 	opacity: 0.84;
 	border: solid transparent;

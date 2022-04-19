@@ -65,7 +65,7 @@
 
 	<!-- Second bloc : accueil -->
 	<section id="accueil" class="flex">
-		<div id="firstBlock" class="flex">
+		<div class="flex firstBlock">
 			<div class="flex" id="divTitre">
 				<div style="margin: 0 0 10px 0;">
 					<h1 style="font-size: larger; font-weight: 400;">TAXI CONVENTIONNÉ</h1>
@@ -73,7 +73,7 @@
 				<div style="margin: 0 0 10px 0;">
 					<h1 style="font-size: xx-large;">TAXI ABDEL</h1>
 				</div>
-				<div style="font-weight: 300; font-size: large;">
+				<div class="firstP">
 					<p style="letter-spacing: 1px; text-align: justify;">Réserver un taxi
 						conventionné en appelant le <a href="tel:+0631 752852"
 							class="linkNum"><b>06 31 75 28 52</b></a>, à cette adresse mail
@@ -85,7 +85,7 @@
 				</div>
 			</div>
 
-			<div id="form1">
+			<div class="form1">
 				<form action="index.php" method="POST" id="formReservation" class="flex">
 
 					<div class="flex" style="margin-bottom: 10px;"><label></label>
