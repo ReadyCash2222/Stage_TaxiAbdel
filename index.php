@@ -14,16 +14,14 @@
 	<meta name="revised" content="03/03/2002">
 
 	<title>Taxi Abdel</title>
-	<link rel="stylesheet" href="style.css">
 
+	<link rel="stylesheet" type="text/css" href="style.css" media="screen"/>
 	<link rel="shortcut icon" type="image/x-icon" href="/images/tl-service-conventionne-logo.png" />
-
 	<style>
 		@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400&display=swap');
 	</style>
 
 	<meta name="google-site-verification" content="JnDjspboJ7D4NSQpFc7I9S2DtmHxVvHowkffpsHe2P0" />
-
 	<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> -->
 	<script src="script.js"></script>
 
@@ -67,8 +65,7 @@
 
 	<!-- Second bloc : accueil -->
 	<section id="accueil" class="flex">
-		<div class="flex"
-			style="width: 100%; flex-direction: row; flex-wrap: wrap; justify-content: space-around;">
+		<div id="firstBlock" class="flex">
 			<div class="flex" id="divTitre">
 				<div style="margin: 0 0 10px 0;">
 					<h1 style="font-size: larger; font-weight: 400;">TAXI CONVENTIONNÉ</h1>
@@ -79,16 +76,16 @@
 				<div style="font-weight: 300; font-size: large;">
 					<p style="letter-spacing: 1px; text-align: justify;">Réserver un taxi
 						conventionné en appelant le <a href="tel:+0631 752852"
-							id="linkNum"><b>06 31 75 28 52</b></a>, à cette adresse mail
+							class="linkNum"><b>06 31 75 28 52</b></a>, à cette adresse mail
 						<a href="mailto:taxiabdel1978@gmail.com"
-							id="linkNum"><b>taxiabdel1978@gmail.com</b></a>
+							class="linkNum"><b>taxiabdel1978@gmail.com</b></a>
 						ou en quelques
 						clics sur notre site. Votre taxi conventionné vient à votre domicile et
 						vous dépose sur votre lieu rendez-vous.</p>
 				</div>
 			</div>
 
-			<div id="form">
+			<div id="form1">
 				<form action="index.php" method="POST" id="formReservation" class="flex">
 
 					<div class="flex" style="margin-bottom: 10px;"><label></label>
@@ -121,7 +118,7 @@
 					<div class="flex" style="margin-top: 15px;"><label>Numéro de sécurité sociale :
 						</label></div>
 					<div class="input2div"><input type="text" id="num_secu" name="num_secu"
-							class="input1" required placeholder="x-xx-xx-xx-xxx-xxx">
+							class="input1" placeholder="x-xx-xx-xx-xxx-xxx" maxlength="13">
 					</div>
 
 					<div class="flex" style="margin-top: 10px;"><label>Adresse de départ :</label>
@@ -160,7 +157,7 @@
 					<div class="input2div" style="margin-top: 10px; margin-bottom: 10px;"><input
 							type="submit" name="submit" value="Effectuer la réservation"
 							class="submit2" id="btnForm1" />
-					</div>
+					</div> 
 				</form>
 				<?php
 
@@ -168,7 +165,7 @@
 					ini_set( 'display_errors', 1 );
 					error_reporting( E_ALL );
 
-					$to = "mermozlethug@gmail.com"; // this is your Email address
+					$to = "taxiabdel1978@gmail.com"; // this is your Email address
 					$from = $_POST['email_addr']; // this is the sender's Email address
 
 					$first_name = $_POST['prenom'];
@@ -190,7 +187,7 @@
 
 					mail($to,$subject,$message,$headers);
 					mail($from,$subject2,$message2,$headers2); // sends a copy of the message to the sender
-					echo "Réservation envoyée. Merci " . $first_name . ", nous vous contacterons sous peu.";
+					// echo "Réservation envoyée. Merci " . $first_name . ", nous vous contacterons sous peu.";
 					}
 
 				?>

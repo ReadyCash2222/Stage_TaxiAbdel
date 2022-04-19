@@ -90,8 +90,8 @@ h6 {
 
 #numTelNav:hover {
 	cursor: pointer;
-	background: aqua;
-	box-shadow: 0 0 25px aqua, 0 0 50px aqua, 0 0 200px aqua;
+	background: rgb(0, 255, 255);
+	box-shadow: 0 0 25px rgb(0, 255, 255), 0 0 50px rgb(0, 255, 255), 0 0 200px rgb(0, 255, 255);
 }
 
 #logoTel {
@@ -99,14 +99,14 @@ h6 {
 	width: 22px;
 }
 
-#linkNum {
+.linkNum {
 	color: #065eaa;
 	font-weight: 300
 }
 
-#linkNum:hover {
+.linkNum:hover {
 	cursor: pointer;
-	color: aqua;
+	color: rgb(0, 255, 255);
 }
 
 /*
@@ -123,12 +123,17 @@ ul {
 	margin: 16px 0;
 }
 
+#firstBlock {
+	width: 100%;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
 /* ******** */
 
 #myBtn {
 	position: fixed;
-	/* Fixed/sticky position */
-	position: -webkit-sticky;
 
 	width: 40px;
 	height: 40px;
@@ -138,8 +143,6 @@ ul {
 	right: 15px;
 	/* Place the button 30px from the right */
 	z-index: 99;
-	/* Make sure it does not overlap */
-	border: none;
 	/* Remove borders */
 	outline: none;
 	/* Remove outline */
@@ -160,8 +163,8 @@ ul {
 
 #myBtn:hover {
 	cursor: pointer;
-	background-color: aqua;
-	box-shadow: 0 0 5px aqua, 0 0 10px aqua, 0 0 100px aqua;
+	background-color: rgb(0, 255, 255);
+	box-shadow: 0 0 5px rgb(0, 255, 255), 0 0 10px rgb(0, 255, 255), 0 0 100px rgb(0, 255, 255);
 	/* Add a dark-grey background on hover */
 }
 
@@ -190,8 +193,9 @@ ul {
 	width: 30%;
 }
 
-#form {
-	background: rgba(0, 0, 0, 0.84);
+#form1 {
+	background: #000000;
+	opacity: 0.84;
 	border: solid transparent;
 	border-width: 30px 5px 30px 5px;
 	border-radius: 10px;
@@ -206,6 +210,7 @@ ul {
 
 	color: #ffffff;
 
+	-moz-box-shadow: 0px 4px 6px 3px rgba(110, 110, 110, 0.4);
 	-webkit-box-shadow: 0px 4px 6px 3px rgba(110, 110, 110, 0.4);
 	box-shadow: 0px 4px 6px 3px rgba(110, 110, 110, 0.4);
 }
@@ -273,8 +278,8 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 
 #btnForm1:hover {
 	cursor: pointer;
-	background: aqua;
-	box-shadow: 0 0 5px aqua, 0 0 10px aqua, 0 0 100px aqua;
+	background: rgb(0, 255, 255);
+	box-shadow: 0 0 5px rgb(0, 255, 255), 0 0 10px rgb(0, 255, 255), 0 0 100px rgb(0, 255, 255);
 }
 
 #firstBG {
@@ -451,7 +456,7 @@ img {
 
 .liAvantage {
 	display: list-item;
-	text-align: start;
+	text-align: left;
 	margin-bottom: 8px;
 }
 
@@ -573,7 +578,7 @@ img {
 }
 
 .submit2 {
-	border: 0px solid black;
+	border: solid black;
 	background: #2F2E2E;
 	color: #FFFFFF;
 	width: 100%;
@@ -586,8 +591,8 @@ img {
 
 #btnForm2:hover {
 	cursor: pointer;
-	background: aqua;
-	box-shadow: 0 0 5px aqua, 0 0 10px aqua, 0 0 100px aqua;
+	background: rgb(0, 255, 255);
+	box-shadow: 0 0 5px rgb(0, 255, 255), 0 0 10px rgb(0, 255, 255), 0 0 100px rgb(0, 255, 255);
 }
 
 /* ******** */
