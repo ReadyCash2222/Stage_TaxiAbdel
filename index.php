@@ -15,7 +15,7 @@
 
 	<title>Taxi Abdel</title>
 
-	<link rel="stylesheet" type="text/css" href="style.css" media="screen"/>
+	<link rel="stylesheet" type="text/css" href="/css/style.css" media="screen"/>
 	<link rel="shortcut icon" type="image/x-icon" href="/images/tl-service-conventionne-logo.png" />
 	<style>
 		@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400&display=swap');
