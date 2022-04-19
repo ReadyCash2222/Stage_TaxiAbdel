@@ -23,7 +23,7 @@
 
 	<meta name="google-site-verification" content="JnDjspboJ7D4NSQpFc7I9S2DtmHxVvHowkffpsHe2P0" />
 	<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> -->
-	<script src="script.js"></script>
+	<script src="/script/script.js"></script>
 
 </head>
 
