@@ -191,7 +191,6 @@
 					mail($to,$subject,$message,$headers);
 					mail($from,$subject2,$message2,$headers2); // sends a copy of the message to the sender
 					echo "Réservation envoyée. Merci " . $first_name . ", nous vous contacterons sous peu.";
-					header('Location: index.php');
 					}
 
 				?>
