@@ -582,6 +582,8 @@ img {
 }
 
 .text_area {
+	min-height: 120px;
+	max-width: 290px;
 	max-height: 120px;
 	max-width: 290px;
 	border-top: 2px solid #000000;
