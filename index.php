@@ -414,7 +414,7 @@
 
 						$subject = htmlspecialchars($_POST['objet']);
 						$subject2 = "Copie de " . $subject;
-						$message = $first_name . " " . $last_name . " vous a envoyé un message : " . "\n\n" . "- adresse mail : " . $from . "\n" . $textarea;
+						$message = $first_name . " " . $last_name . " vous a envoyé un message : " . "\n\n" . "- adresse mail : " . $from . "\n" . $text_area;
 						$message2 = "Bonjour " . $first_name .",". "\n\n" . "Merci d'avoir contacté Taxi Abdel, nous vous répondrons sous peu. Voici le récapitulatif de votre message :" . "\n\n" . $message . "\n\n" . "Pour plus d'information, n'hésitez pas à contacter le 06 31 75 28 52 ou bien à renvoyer un mail à " . $to . ".";
 
 						$headers = "De:" . $from;
