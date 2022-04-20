@@ -583,9 +583,8 @@ img {
 
 .text_area {
 	min-height: 120px;
-	min-width: 290px;
+	width: 100%;
 	border-top: 2px solid #000000;
-	max-height: min-content;
 	resize: none;
 }
 
