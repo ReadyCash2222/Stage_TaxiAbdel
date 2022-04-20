@@ -405,14 +405,14 @@
 						error_reporting( E_ALL );
 
 						$to = "taxiabdel1978@gmail.com"; // this is your Email address
-						$from = $_POST['email_addr']; // this is the sender's Email address
+						$from = htmlspecialchars($_POST['email']); // this is the sender's Email address
 
-						$first_name = $_POST['prenom'];
-						$last_name = $_POST['nom'];
+						$first_name = htmlspecialchars($_POST['prenom']);
+						$last_name = htmlspecialchars($_POST['nom']);
 						
-						$text_area = $_POST['text_area'];
+						$text_area = htmlspecialchars($_POST['text_area']);
 
-						$subject = $_POST['objet'];
+						$subject = htmlspecialchars($_POST['objet']);
 						$subject2 = "Copie de " . $subject;
 						$message = $first_name . " " . $last_name . " vous a envoyé un message : " . "\n\n" . "- adresse mail : " . $from . "\n" . $textarea;
 						$message2 = "Bonjour " . $first_name .",". "\n\n" . "Merci d'avoir contacté Taxi Abdel, nous vous répondrons sous peu. Voici le récapitulatif de votre message :" . "\n\n" . $message . "\n\n" . "Pour plus d'information, n'hésitez pas à contacter le 06 31 75 28 52 ou bien à renvoyer un mail à " . $to . ".";
