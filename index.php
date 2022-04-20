@@ -166,15 +166,15 @@
 					error_reporting( E_ALL );
 
 					$to = "taxiabdel1978@gmail.com"; // this is your Email address
-					$from = $_POST['email_addr']; // this is the sender's Email address
+					$from = htmlspecialchars($_POST['email_addr']); // this is the sender's Email address
 
-					$first_name = $_POST['prenom'];
-					$last_name = $_POST['nom'];
-					$num_secu = $_POST['num_secu'];
-					$adr_dep = $_POST['adr_dep'];
-					$date = $_POST['date'];
-					$adr_des = $_POST['adr_des'];
-					$heure = $_POST['heure'];
+					$first_name = htmlspecialchars($_POST['prenom']);
+					$last_name = htmlspecialchars($_POST['nom']);
+					$num_secu = htmlspecialchars($_POST['num_secu']);
+					$adr_dep = htmlspecialchars($_POST['adr_dep']);
+					$date = htmlspecialchars($_POST['date']);
+					$adr_des = htmlspecialchars($_POST['adr_des']);
+					$heure = htmlspecialchars($_POST['heure']);
 
 					$subject = "Réservation";
 					$subject2 = "Copie de votre réservation";
@@ -415,7 +415,7 @@
 						$subject = htmlspecialchars($_POST['objet']);
 						$subject2 = "Copie de " . $subject;
 						$message = $first_name . " " . $last_name . " vous a envoyé un message : " . "\n\n" . "- adresse mail : " . $from . "\n" . $text_area;
-						$message2 = "Bonjour " . $first_name .",". "\n\n" . "Merci d'avoir contacté Taxi Abdel, nous vous répondrons sous peu. Voici le récapitulatif de votre message :" . "\n\n" . $message . "\n\n" . "Pour plus d'information, n'hésitez pas à contacter le 06 31 75 28 52 ou bien à renvoyer un mail à " . $to . ".";
+						$message2 = "Bonjour " . $first_name .",". "\n\n" . "Merci d'avoir contacté Taxi Abdel, nous vous répondrons sous peu. Voici le récapitulatif de votre message :" . "\n\n" . $text_area . "\n\n" . "Pour plus d'information, n'hésitez pas à contacter le 06 31 75 28 52 ou bien à renvoyer un mail à " . $to . ".";
 
 						$headers = "De:" . $from;
 						$headers2 = "De:" . $to;
