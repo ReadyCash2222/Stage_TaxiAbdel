@@ -581,7 +581,7 @@ img {
 	color: grey;
 }
 
-.text_area {
+/* .text_area {
 	height: 115px;
 	min-width: 285px;
 	width: 290px;
@@ -590,7 +590,7 @@ img {
 	border-left: transparent;
 	border-right: transparent;
 	border-bottom: 2px solid #000000;
-}
+} */
 
 .submit2 {
 	border: solid black;
