@@ -350,7 +350,7 @@
 					</div>
 				</div>
 				<div id="rightItem">
-					<form action="POST">
+					<form method="POST" action="index.php">
 						<div class="flex formulaire2">
 							<div class="formText2"><label for="">Prénom :</label>
 							</div>
@@ -387,7 +387,7 @@
 						<div class="flex formulaire2" style="height:155px; margin-top: 10px;">
 							<div class="formText2"><label for="">Message :</label></div>
 							<div class="input2div">
-								<textarea name="message" id="message" required
+								<textarea name="text_area" id="message" required
 									class="input2"
 									style="height: 120px; border-top: 2px solid #000000;"
 									rows="5" cols="33"
@@ -396,8 +396,37 @@
 						</div>
 						<div class="input2div" id="button" style="margin-top: 15px;">
 							<button type="submit" class="submit2"
-								id="btnForm2">Envoyer</button></div>
+								id="btnForm2" name="submit2">Envoyer</button></div>
 					</form>
+					<?php
+
+						if(isset($_POST['submit2'])){
+						ini_set( 'display_errors', 1 );
+						error_reporting( E_ALL );
+
+						$to = "taxiabdel1978@gmail.com"; // this is your Email address
+						$from = $_POST['email_addr']; // this is the sender's Email address
+
+						$first_name = $_POST['prenom'];
+						$last_name = $_POST['nom'];
+						
+						$text_area = $_POST['text_area'];
+
+						$subject = $_POST['objet'];
+						$subject2 = "Copie de " . $subject;
+						$message = $first_name . " " . $last_name . " vous a envoyé un message : " . "\n\n" . "- adresse mail : " . $from . "\n" . $textarea;
+						$message2 = "Bonjour " . $first_name .",". "\n\n" . "Merci d'avoir contacté Taxi Abdel, nous vous répondrons sous peu. Voici le récapitulatif de votre message :" . "\n\n" . $message . "\n\n" . "Pour plus d'information, n'hésitez pas à contacter le 06 31 75 28 52 ou bien à renvoyer un mail à " . $to . ".";
+
+						$headers = "De:" . $from;
+						$headers2 = "De:" . $to;
+
+
+						mail($to,$subject,$message,$headers);
+						mail($from,$subject2,$message2,$headers2); // sends a copy of the message to the sender
+						// echo "Réservation envoyée. Merci " . $first_name . ", nous vous contacterons sous peu.";
+						}
+
+					?>
 				</div>
 			</div>
 		</div>
