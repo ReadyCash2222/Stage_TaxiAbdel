@@ -387,8 +387,8 @@
 						<div class="flex formulaire2" style="height:155px; margin-top: 10px;">
 							<div class="formText2"><label for="">Message :</label></div>
 							<div class="input2div">
-								<textarea name="text_area" class="text_area" required
-									class="input2" rows="5" cols="33"
+								<textarea name="text_area" required
+									class="input2 text_area" rows="5" cols="33"
 									placeholder="Bonjour, je souhaiterais réserver un taxi pour un transport non médicalisé/médicalisé à destination de..."></textarea>
 							</div>
 						</div>
