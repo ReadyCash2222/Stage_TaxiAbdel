@@ -47,7 +47,7 @@
 			<a href="tel:+0631752852">
 				<div id="numTelNav" class="flex">
 					<div id="logoTel">
-						<img src="/images/tellogloblanc.png" alt="logotelblanc">
+						<img src="/images/tellogloblanc.png" alt="logo telephone blanc">
 					</div>
 					06 31 75 28 52
 				</div>
@@ -60,7 +60,7 @@
 
 	<!-- Bouton pour revenir en haut -->
 	<div>
-		<button onclick="topFunction()" id="myBtn"><img src="/images/icons8-fleche-haut-64.png" alt=""></button>
+		<button onclick="topFunction()" id="myBtn"><img src="/images/icons8-fleche-haut-64.png" alt="fleche vers le haut"></button>
 	</div>
 
 	<!-- Second bloc : accueil -->
@@ -118,7 +118,7 @@
 					<div class="flex" style="margin-top: 15px;"><label>Numéro de sécurité sociale :
 						</label></div>
 					<div class="input2div"><input type="text" id="num_secu" name="num_secu"
-							class="input1" placeholder="x-xx-xx-xx-xxx-xxx" maxlength="13">
+							class="input1" placeholder="1 23 45 67 890 123" maxlength="13">
 					</div>
 
 					<div class="flex" style="margin-top: 10px;"><label>Adresse de départ :</label>
@@ -126,7 +126,7 @@
 						</div>
 					</div>
 					<div class="input2div"><input type="text" id="adr_dep" name="adr_dep" required
-							class="input1" placeholder="68 rue du général leclerc"></div>
+							class="input1" placeholder="Adresse + Ville (CP)"></div>
 
 					<div class="flex" style="margin-top: 15px;"><label>Date :</label>
 						<div style="color: rgb(255, 0, 0); padding-left: 2px;">*
@@ -143,7 +143,7 @@
 					</div>
 					<div class="input2div"><input type="text" id="adr_des" name="adr_des"
 							class="input1" required
-							placeholder="142 Av. des Champs-Elysées">
+							placeholder="Adresse + Ville (CP)">
 					</div>
 
 					<div class="flex" style="margin-top: 10px;"><label>Heure de votre rendez-vous
@@ -152,7 +152,7 @@
 						</div>
 					</div>
 					<div class="input2div"><input type="text" id="heure" name="heure" class="input1"
-							required placeholder="10h45"></div>
+							required placeholder="9h25"></div>
 
 					<div class="input2div" style="margin-top: 10px; margin-bottom: 10px;"><input
 							type="submit" name="submit" value="Effectuer la réservation"
@@ -211,16 +211,16 @@
 		<div id="service" class="flex">
 
 			<div class="block1 flex">
-				<div class="logo"><img src="/images/avion.png" alt="image avion"
+				<div class="logo"><img src="/images/avion.png" alt="logo avion"
 						style="background-color: white; border: 0px solid white; border-radius: 50%;">
 				</div>
-				<div class="logo"><img src="/images/gare.png" alt="image gare"
+				<div class="logo"><img src="/images/gare.png" alt="logo gare"
 						style="background-color: white; border: 0px solid white; border-radius: 50%;">
 				</div>
-				<div class="logo"><img src="/images/hopital.png" alt="image hopital"
+				<div class="logo"><img src="/images/hopital.png" alt="logo hopital"
 						style="background-color: white; border: 0px solid white; border-radius: 50%;">
 				</div>
-				<div class="logo"><img src="/images/taxi-avant.png" alt="image taxi avant"
+				<div class="logo"><img src="/images/taxi-avant.png" alt="logo taxi avant"
 						style="background-color: white; border: 0px solid white; border-radius: 50%;">
 				</div>
 			</div>
@@ -312,7 +312,7 @@
 	<section id="contact" class="flex"
 		style="background-image: url('/images/2018-quatrefoil-background-white-1.jpg'); background-attachment: fixed;">
 		<div class="img1" style="max-width : 700px;">
-			<img src="/images/toyota_hybride_front.png" alt="logo_taxi">
+			<img src="/images/toyota_hybride_front.png" alt="logo taxi">
 		</div>
 
 		<div class="blocBlanc2 flex">
@@ -387,10 +387,8 @@
 						<div class="flex formulaire2" style="height:155px; margin-top: 10px;">
 							<div class="formText2"><label for="">Message :</label></div>
 							<div class="input2div">
-								<textarea name="text_area" id="message" required
-									class="input2"
-									style="height: 120px; border-top: 2px solid #000000;"
-									rows="5" cols="33"
+								<textarea name="text_area" class="text_area" required
+									class="input2" rows="5" cols="33"
 									placeholder="Bonjour, je souhaiterais réserver un taxi pour un transport non médicalisé/médicalisé à destination de..."></textarea>
 							</div>
 						</div>
@@ -436,13 +434,13 @@
 	<footer id="footer" class="flex">
 		<div id="footer_logo" class="flex">
 			<div class="socialLogo1"><a href="https://www.facebook.com/Taxi-Abdel-104431115569060/">
-					<img src="/images/logo_facebook.png" alt="social1"></a></div>
+					<img src="/images/logo_facebook.png" alt="logo facebook"></a></div>
 
 			<div class="socialLogo1"><a href="https://twitter.com/TaxiAbdel">
-					<img src="/images/logo_twitter.png" alt="social2"></a></div>
+					<img src="/images/logo_twitter.png" alt="logo twitter"></a></div>
 
 			<div class="socialLogo1"><a href="https://www.instagram.com/?hl=fr">
-					<img src="/images/logo_insta.png" alt="social3"></a></div>
+					<img src="/images/logo_insta.png" alt="logo instagram"></a></div>
 		</div>
 
 
