@@ -66,3 +66,15 @@ function topFunction() {
 	document.body.scrollTop = 0;
 	document.documentElement.scrollTop = 0;
 }
+
+// let footer = document.getElementById("footer")
+// let details = document.getElementById("details")
+
+// details.addEventListener("click", function () {
+// 	augmentHeight()
+// })
+
+// function augmentHeight() {
+// 	footer.style.height("500px")
+
+// }
