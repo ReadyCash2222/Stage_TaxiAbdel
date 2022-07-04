@@ -69,15 +69,15 @@
 	<section id="accueil" class="flex">
 		<div class="flex firstBlock">
 			<div class="flex" id="divTitre" style="flex-wrap:wrap">
-				<div style="margin: 0 0 10px 0;">
-					<h1 style="font-size: larger; font-weight: 400;">TAXI CONVENTIONNÉ</h1>
+				<div style="margin: 0 0 10px 0; width: 300px;">
+					<h1 style="font-size: x-larger; font-weight: 400;">TAXI CONVENTIONNÉ</h1>
 				</div>
-				<div style="margin: 0 0 10px 0;">
-					<h1 style="font-size: xx-large;">TAXI ABDEL</h1>
+				<div style="margin: 0 0 10px 0; width: 300px;">
+					<h1 style="font-size:xx-large;">TAXI ABDEL BEAUCHAMP</h1>
 				</div>
 				<div class="firstP">
 					<p style="letter-spacing: 1px; text-align: justify;">Réservez un taxi
-						conventionné Beauchamp en appelant le <a href="tel:+0631 752852" class="linkNum unselectable"><b>06 31 75 28 52</b></a>, à cette
+						conventionné Beauchamp en appelant le <a href="tel:+0631752852" class="linkNum unselectable"><b>06 31 75 28 52</b></a>, à cette
 						adresse mail
 						<a href="mailto:taxiabdel1978@gmail.com" class="linkNum unselectable"><b>taxiabdel1978@gmail.com</b></a>
 						ou en quelques
@@ -181,7 +181,7 @@
 			</div>
 		</div>
 
-		<div style="width : 60%; max-width : 900px;">
+		<div class="toyotaImg">
 			<img src="/images/toyota_hybride_profile.png" alt="toyota hybride profile">
 		</div>
 	</section>
@@ -245,7 +245,7 @@
 
 	<!-- Quatrième bloc : histoire -->
 	<section id="histoire" class="flex" style="background-image: url('/images/2018-quatrefoil-background-white-1.jpg'); background-attachment: fixed;">
-		<div class="blocBlanc1 flex" style="width: auto; max-width: 900px;">
+		<div class="blocBlanc1 flex">
 			<div class="titre2">
 				<h1 style="margin-bottom: 10px;">AVANTAGES TAXI CONVENTIONNÉ</h1>
 			</div>
@@ -331,7 +331,7 @@
 					</div>
 				</div>
 				<div id="rightItem">
-					<form method="POST" action="index.php">
+					<form method="POST" action="index.php" id="secondForm">
 						<div class="flex formulaire2">
 							<div class="formText2"><label for="">Prénom :</label>
 							</div>
@@ -364,7 +364,7 @@
 								<textarea name="text_area" required style="height: 115px;min-width: 285px;width: 290px;border-top: 2px solid #000000;resize: none;border-left: transparent;border-right: transparent;border-bottom: 2px solid #000000;" rows="5" cols="33" placeholder="Bonjour, je souhaiterais réserver un taxi pour un transport non médicalisé/médicalisé à destination de..."></textarea>
 							</div>
 						</div>
-						<div class="input2div" id="button" style="margin-top: 15px;">
+						<div class="input2div button22" id="button" style="margin-top: 15px;">
 							<button type="submit" class="submit2" id="btnForm2" name="submit2">Envoyer</button>
 						</div>
 					</form>
@@ -438,27 +438,23 @@
 
 			<details>
 				<summary>Tags</summary>
-				<p style="text-align:center">Taxi Abdel, taxi abdel, taxiabdel, taxi conventionné,
-					transport
-					taxi, taxi
-					ameli,
-					conventionné taxi, réserver taxi, réserver taxi conventionné, réserver
-					taxi
-					abdel, réservation taxi,
-					réservation taxi conventionné, réservation taxi abdel, réservation taxi
-					améli,
-					réserver Taxi Abdel,
-					réservation Taxi Abdel</p>
+				<p style="text-align:center">Taxi Abdel Beauchamp, taxi abdel Beauchamp, taxiabdel Beauchamp,
+					taxi conventionné Beauchamp,
+					transport taxi Beauchamp,
+					taxi ameli Beauchamp,
+					conventionné taxi Beauchamp, réserver taxi Beauchamp, réserver taxi conventionné Beauchamp, réserver taxi abdel Beauchamp,
+					réservation taxi Beauchamp, réservation taxi conventionné Beauchamp, réservation taxi abdel Beauchamp, réservation
+					taxi améli Beauchamp, réserver Taxi Abdel Beauchamp, réservation Taxi Abdel Beauchamp</p>
 			</details>
 
 		</div>
-		<div style="width: 75%; text-align: center; display: none;">Tags: Taxi Abdel, taxi abdel, taxiabdel,
-			taxi conventionné,
-			transport taxi,
-			taxi ameli,
-			conventionné taxi, réserver taxi, réserver taxi conventionné, réserver taxi abdel,
-			réservation taxi, réservation taxi conventionné, réservation taxi abdel, réservation
-			taxi améli, réserver Taxi Abdel, réservation Taxi Abdel</div>
+		<div style="width: 75%; text-align: center; display: none;">Tags: Taxi Abdel Beauchamp, taxi abdel Beauchamp, taxiabdel Beauchamp,
+			taxi conventionné Beauchamp,
+			transport taxi Beauchamp,
+			taxi ameli Beauchamp,
+			conventionné taxi Beauchamp, réserver taxi Beauchamp, réserver taxi conventionné Beauchamp, réserver taxi abdel Beauchamp,
+			réservation taxi Beauchamp, réservation taxi conventionné Beauchamp, réservation taxi abdel Beauchamp, réservation
+			taxi améli Beauchamp, réserver Taxi Abdel Beauchamp, réservation Taxi Abdel Beauchamp</div>
 		<div id="copyright">
 			<p>© 2022 par Taxi Abdel. Tous droits réservés.</p>
 		</div>

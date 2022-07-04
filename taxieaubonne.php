@@ -5,14 +5,14 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="keywords" content="Taxi Abdel, taxi abdel, taxiabdel, taxi conventionné, transport taxi, taxi ameli, 
-		conventionné taxi, réserver taxi, réserver taxi conventionné, réserver taxi abdel, réservation taxi, 
-		réservation taxi conventionné, réservation taxi abdel, réservation taxi améli, réserver Taxi Abdel, 
-		réservation Taxi Abdel">
-	<meta name="description" content="Un site de réservation en ligne de taxi conventionné, au compte de Taxi Abdel, pour tous types de transport.">
+	<meta name="keywords" content="Taxi Abdel Eaubonne, taxi abdel Eaubonne, taxiabdel Eaubonne, taxi conventionné Eaubonne, transport taxi Eaubonne, taxi ameli Eaubonne, 
+		conventionné taxi Eaubonne, réserver taxi Eaubonne, réserver taxi conventionné Eaubonne, réserver taxi abdel Eaubonne, réservation taxi Eaubonne, 
+		réservation taxi conventionné Eaubonne, réservation taxi abdel Eaubonne, réservation taxi améli Eaubonne, réserver Taxi Abdel Eaubonne, 
+		réservation Taxi Abdel Eaubonne">
+	<meta name="description" content="Un site de réservation en ligne de taxi conventionné Eaubonne, au compte de Taxi Abdel, pour tous types de transport.">
 	<meta name="revised" content="03/03/2002">
 
-	<title>Taxi Abdel</title>
+	<title>Taxi Eaubonne</title>
 
 	<link rel="stylesheet" type="text/css" href="/css/style.css" media="screen" />
 	<link rel="shortcut icon" type="image/x-icon" href="/images/tl-service-conventionne-logo.png" />
@@ -73,11 +73,11 @@
 					<h1 style="font-size: x-larger; font-weight: 400;">TAXI CONVENTIONNÉ</h1>
 				</div>
 				<div style="margin: 0 0 10px 0; width: 300px;">
-					<h1 style="font-size:xx-large;">TAXI ABDEL</h1>
+					<h1 style="font-size:xx-large;">TAXI ABDEL EAUBONNE</h1>
 				</div>
 				<div class="firstP">
 					<p style="letter-spacing: 1px; text-align: justify;">Réservez un taxi
-						conventionné en appelant le <a href="tel:+0631752852" class="linkNum unselectable"><b>06 31 75 28 52</b></a>, à cette
+						conventionné Eaubonne en appelant le <a href="tel:+0631752852" class="linkNum unselectable"><b>06 31 75 28 52</b></a>, à cette
 						adresse mail
 						<a href="mailto:taxiabdel1978@gmail.com" class="linkNum unselectable"><b>taxiabdel1978@gmail.com</b></a>
 						ou en quelques
@@ -148,7 +148,7 @@
 				</form>
 				<?php
 
-				if (isset($_POST['submit'])){
+				if (isset($_POST['submit'])) {
 					ini_set('display_errors', 1);
 					error_reporting(E_ALL);
 
@@ -166,16 +166,16 @@
 					$subject = "Réservation";
 					$subject2 = "Copie de votre réservation";
 					$message = $first_name . " " . $last_name . " souhaite réserver une course : " . "\n\n" . "- adresse mail : " . $from . "\n" . "- numéro de sécurité social : " . $num_secu . "\n" . "- adresse de départ : " . $adr_dep . "\n" . "- date : " . $date . "\n" . "- adresse de destination : " . $adr_des . "\n" . "- heure : " . $heure;
-					$message2 = "Bonjour " . $first_name .",". "\n\n" . "Merci d'avoir choisi Taxi Abdel pour effectuer une réservation. Voici le récapitulatif de votre réservation :" . "\n\n" . $message . "\n\n" . "Pour plus d'information, n'hésitez pas à contacter le 06 31 75 28 52 ou bien à renvoyer un mail à " . $to . ".";
+					$message2 = "Bonjour " . $first_name . "," . "\n\n" . "Merci d'avoir choisi Taxi Abdel pour effectuer une réservation. Voici le récapitulatif de votre réservation :" . "\n\n" . $message . "\n\n" . "Pour plus d'information, n'hésitez pas à contacter le 06 31 75 28 52 ou bien à renvoyer un mail à " . $to . ".";
 
 					$headers = "De:" . $from;
 					$headers2 = "De:" . $to;
 
 
-					mail($to,$subject,$message,$headers);
-					mail($from,$subject2,$message2,$headers2); // sends a copy of the message to the sender
+					mail($to, $subject, $message, $headers);
+					mail($from, $subject2, $message2, $headers2); // sends a copy of the message to the sender
 					// echo "Réservation envoyée. Merci " . $first_name . ", nous vous contacterons sous peu.";
-					}
+				}
 
 				?>
 			</div>
@@ -198,17 +198,13 @@
 		<div id="service" class="flex">
 
 			<div class="block1 flex">
-				<div class="logo"><img src="/images/avion.png" alt="logo avion"
-						style="background-color: white; border: 0px solid white; border-radius: 50%;">
+				<div class="logo"><img src="/images/avion.png" alt="logo avion" style="background-color: white; border: 0px solid white; border-radius: 50%;">
 				</div>
-				<div class="logo"><img src="/images/gare.png" alt="logo gare"
-						style="background-color: white; border: 0px solid white; border-radius: 50%;">
+				<div class="logo"><img src="/images/gare.png" alt="logo gare" style="background-color: white; border: 0px solid white; border-radius: 50%;">
 				</div>
-				<div class="logo"><img src="/images/hopital.png" alt="logo hopital"
-						style="background-color: white; border: 0px solid white; border-radius: 50%;">
+				<div class="logo"><img src="/images/hopital.png" alt="logo hopital" style="background-color: white; border: 0px solid white; border-radius: 50%;">
 				</div>
-				<div class="logo"><img src="/images/taxi-avant.png" alt="logo taxi avant"
-						style="background-color: white; border: 0px solid white; border-radius: 50%;">
+				<div class="logo"><img src="/images/taxi-avant.png" alt="logo taxi avant" style="background-color: white; border: 0px solid white; border-radius: 50%;">
 				</div>
 			</div>
 			<div class="block1 flex">
@@ -248,8 +244,7 @@
 
 
 	<!-- Quatrième bloc : histoire -->
-	<section id="histoire" class="flex"
-		style="background-image: url('/images/2018-quatrefoil-background-white-1.jpg'); background-attachment: fixed;">
+	<section id="histoire" class="flex" style="background-image: url('/images/2018-quatrefoil-background-white-1.jpg'); background-attachment: fixed;">
 		<div class="blocBlanc1 flex">
 			<div class="titre2">
 				<h1 style="margin-bottom: 10px;">AVANTAGES TAXI CONVENTIONNÉ</h1>
@@ -283,21 +278,18 @@
 					votre déplacement ne sera pas du tout remboursé par l’Assurance Maladie et
 					restera intégralement à votre charge.</p>
 			</div>
-			<div id="ameli" style="position: relative;"><img src="/images/Ameli.svg" alt=""
-					style="margin-top:20px;"></div>
+			<div id="ameli" style="position: relative;"><img src="/images/Ameli.svg" alt="" style="margin-top:20px;"></div>
 		</div>
 	</section>
 
 	<!-- Cinquième bloc : vide -->
 	<div id="vide">
-		<div class="vide"
-			style="background-image: url('/images/depositphotos_387699394-stock-photo-dark-black-geometric-grid-carbon.jpg'); width: 100%; height: 100%; background-attachment: fixed;">
+		<div class="vide" style="background-image: url('/images/depositphotos_387699394-stock-photo-dark-black-geometric-grid-carbon.jpg'); width: 100%; height: 100%; background-attachment: fixed;">
 		</div>
 	</div>
 
 	<!-- Sixième bloc : contact -->
-	<section id="contact" class="flex"
-		style="background-image: url('/images/2018-quatrefoil-background-white-1.jpg'); background-attachment: fixed;">
+	<section id="contact" class="flex" style="background-image: url('/images/2018-quatrefoil-background-white-1.jpg'); background-attachment: fixed;">
 		<div class="img1" style="max-width : 700px;">
 			<img src="/images/toyota_hybride_front.png" alt="logo taxi">
 		</div>
@@ -343,15 +335,12 @@
 						<div class="flex formulaire2">
 							<div class="formText2"><label for="">Prénom :</label>
 							</div>
-							<div class="input2div"><input type="text" name="prenom"
-									id="prenom" required class="input2"
-									placeholder="Prénom"></div>
+							<div class="input2div"><input type="text" name="prenom" id="prenom" required class="input2" placeholder="Prénom"></div>
 						</div>
 						<div class="flex formulaire2" style="margin-top: 10px;">
 							<div class="formText2"><label for="">Nom de famille :</label>
 							</div>
-							<div class="input2div"><input type="text" name="nom" id="nom"
-									required class="input2" placeholder="Nom"></div>
+							<div class="input2div"><input type="text" name="nom" id="nom" required class="input2" placeholder="Nom"></div>
 						</div>
 						<div class="flex formulaire2" style="margin-top: 10px;">
 							<div class="formText2 flex">
@@ -361,58 +350,51 @@
 								</div>
 
 							</div>
-							<div class="input2div"><input type="email" name="email"
-									id="email" class="input2" required
-									placeholder="email@email.fr"></div>
+							<div class="input2div"><input type="email" name="email" id="email" class="input2" required placeholder="email@email.fr"></div>
 						</div>
 						<div class="flex formulaire2" style="margin-top: 10px;">
 
 							<div class="formText2"><label for="">Objet :</label></div>
-							<div class="input2div"><input type="text" name="objet"
-									id="objet" class="input2"
-									placeholder="Réservation"></div>
+							<div class="input2div"><input type="text" name="objet" id="objet" class="input2" placeholder="Réservation"></div>
 						</div>
 
 						<div class="flex formulaire2" style="height:155px; margin-top: 10px;">
 							<div class="formText2"><label for="">Message :</label></div>
 							<div class="input2div">
-								<textarea name="text_area" required
-									style="height: 115px;min-width: 285px;width: 290px;border-top: 2px solid #000000;resize: none;border-left: transparent;border-right: transparent;border-bottom: 2px solid #000000;"
-									rows="5" cols="33"
-									placeholder="Bonjour, je souhaiterais réserver un taxi pour un transport non médicalisé/médicalisé à destination de..."></textarea>
+								<textarea name="text_area" required style="height: 115px;min-width: 285px;width: 290px;border-top: 2px solid #000000;resize: none;border-left: transparent;border-right: transparent;border-bottom: 2px solid #000000;" rows="5" cols="33" placeholder="Bonjour, je souhaiterais réserver un taxi pour un transport non médicalisé/médicalisé à destination de..."></textarea>
 							</div>
 						</div>
 						<div class="input2div button22" id="button" style="margin-top: 15px;">
-							<button type="submit" class="submit2" id="btnForm2"
-								name="submit2">Envoyer</button></div>
+							<button type="submit" class="submit2" id="btnForm2" name="submit2">Envoyer</button>
+						</div>
 					</form>
 					<?php
 
-						if(isset($_POST['submit2'])){
-						ini_set( 'display_errors', 1 );
-						error_reporting( E_ALL );
+					if (isset($_POST['submit2'])) {
+						ini_set('display_errors', 1);
+						error_reporting(E_ALL);
 
 						$to = "taxiabdel1978@gmail.com"; // this is your Email address
 						$from = htmlspecialchars($_POST['email']); // this is the sender's Email address
 
 						$first_name = htmlspecialchars($_POST['prenom']);
 						$last_name = htmlspecialchars($_POST['nom']);
-						
+
 						$text_area = htmlspecialchars($_POST['text_area']);
 
 						$subject = htmlspecialchars($_POST['objet']);
 						$subject2 = "Copie de " . $subject;
 						$message = $first_name . " " . $last_name . " vous a envoyé un message : " . "\n\n" . "- adresse mail : " . $from . "\n" . $text_area;
-						$message2 = "Bonjour " . $first_name .",". "\n\n" . "Merci d'avoir contacté Taxi Abdel, nous vous répondrons sous peu. Voici le récapitulatif de votre message :" . "\n\n" . $text_area . "\n\n" . "Pour plus d'information, n'hésitez pas à contacter le 06 31 75 28 52 ou bien à renvoyer un mail à " . $to . ".";
+						$message2 = "Bonjour " . $first_name . "," . "\n\n" . "Merci d'avoir contacté Taxi Abdel, nous vous répondrons sous peu. Voici le récapitulatif de votre message :" . "\n\n" . $text_area . "\n\n" . "Pour plus d'information, n'hésitez pas à contacter le 06 31 75 28 52 ou bien à renvoyer un mail à " . $to . ".";
 
 						$headers = "De:" . $from;
 						$headers2 = "De:" . $to;
 
 
-						mail($to,$subject,$message,$headers);
-						mail($from,$subject2,$message2,$headers2); // sends a copy of the message to the sender
+						mail($to, $subject, $message, $headers);
+						mail($from, $subject2, $message2, $headers2); // sends a copy of the message to the sender
 						// echo "Réservation envoyée. Merci " . $first_name . ", nous vous contacterons sous peu.";
-						}
+					}
 
 					?>
 				</div>
@@ -456,27 +438,23 @@
 
 			<details>
 				<summary>Tags</summary>
-				<p style="text-align:center">Taxi Abdel, taxi abdel, taxiabdel, taxi conventionné,
-					transport
-					taxi, taxi
-					ameli,
-					conventionné taxi, réserver taxi, réserver taxi conventionné, réserver
-					taxi
-					abdel, réservation taxi,
-					réservation taxi conventionné, réservation taxi abdel, réservation taxi
-					améli,
-					réserver Taxi Abdel,
-					réservation Taxi Abdel</p>
+				<p style="text-align:center">Taxi Abdel Eaubonne, taxi abdel Eaubonne, taxiabdel Eaubonne,
+					taxi conventionné Eaubonne,
+					transport taxi Eaubonne,
+					taxi ameli Eaubonne,
+					conventionné taxi Eaubonne, réserver taxi Eaubonne, réserver taxi conventionné Eaubonne, réserver taxi abdel Eaubonne,
+					réservation taxi Eaubonne, réservation taxi conventionné Eaubonne, réservation taxi abdel Eaubonne, réservation
+					taxi améli Eaubonne, réserver Taxi Abdel Eaubonne, réservation Taxi Abdel Eaubonne</p>
 			</details>
 
 		</div>
-		<div style="width: 75%; text-align: center; display: none;">Tags: Taxi Abdel, taxi abdel, taxiabdel,
-			taxi conventionné,
-			transport taxi,
-			taxi ameli,
-			conventionné taxi, réserver taxi, réserver taxi conventionné, réserver taxi abdel,
-			réservation taxi, réservation taxi conventionné, réservation taxi abdel, réservation
-			taxi améli, réserver Taxi Abdel, réservation Taxi Abdel</div>
+		<div style="width: 75%; text-align: center; display: none;">Tags: Taxi Abdel Eaubonne, taxi abdel Eaubonne, taxiabdel Eaubonne,
+			taxi conventionné Eaubonne,
+			transport taxi Eaubonne,
+			taxi ameli Eaubonne,
+			conventionné taxi Eaubonne, réserver taxi Eaubonne, réserver taxi conventionné Eaubonne, réserver taxi abdel Eaubonne,
+			réservation taxi Eaubonne, réservation taxi conventionné Eaubonne, réservation taxi abdel Eaubonne, réservation
+			taxi améli Eaubonne, réserver Taxi Abdel Eaubonne, réservation Taxi Abdel Eaubonne</div>
 		<div id="copyright">
 			<p>© 2022 par Taxi Abdel. Tous droits réservés.</p>
 		</div>

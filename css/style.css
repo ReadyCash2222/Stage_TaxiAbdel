@@ -97,17 +97,6 @@ h6 {
 	flex-direction: row;
 }
 
-@media screen and (max-width:600px) {
-	#numTelNav {
-		width: 23px;
-	}
-
-	.numberTel {
-		display: none;
-		visibility: hidden;
-	}
-}
-
 #numTelNav:hover {
 	cursor: pointer;
 	background: rgb(0, 255, 255);
@@ -201,17 +190,6 @@ ul {
 	flex-direction: column;
 	justify-content: space-evenly;
 	align-items: center;
-}
-
-@media screen and (max-width:700px) {
-	#accueil {
-		height: 1100px;
-	}
-
-	.firstBlock {
-		flex-direction: column;
-		align-items: center;
-	}
 }
 
 #divTitre {
@@ -442,21 +420,6 @@ img {
 	max-width: 220px;
 }
 
-@media screen and (max-width:700px) {
-	.descriptionService {
-		display: none;
-		visibility: hidden;
-	}
-
-	#services {
-		height: 250px;
-		padding: 70px 0;
-	}
-
-	#service {
-		margin: auto
-	}
-}
 
 /* ******** */
 #histoire {
@@ -474,8 +437,8 @@ img {
 }
 
 .blocBlanc1 {
-	/* width: auto;
-	max-width: 900px; */
+	width: auto; 
+	max-width: 900px;
 	height: 375px;
 	background-color: #FFFFFF;
 	padding: 75px 0;
@@ -663,23 +626,83 @@ img {
 	box-shadow: 0 0 5px rgb(0, 255, 255), 0 0 10px rgb(0, 255, 255), 0 0 100px rgb(0, 255, 255);
 }
 
-@media screen and (max-width:700px) {
+/* ******** */
+#footer {
+	width: 100%;
+	height: 275px;
+	background-color: #2F2E2E;
+	color: #FFFFFF;
 
-	#contact {
-		height: 1400px;
-	}
+	font-weight: 300;
 
-	.blocBlanc2 {
-		width: 450px;
-		height: 1000px;
-	}
+	flex-direction: column;
+	flex-wrap: nowrap;
+	align-content: center;
+	justify-content: space-evenly;
+	align-items: center;
+}
 
-	#fifth_SecondItem {
-		height: 800px;
-		flex-direction: column;
-		align-items: center;
-		align-content: space-around;
-	}
+#footer_logo {
+	width: 100%;
+
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin-bottom: 10px;
+}
+
+.socialLogo1 {
+	width: 35px;
+	height: 35px;
+	background-color: #FFFFFF;
+	border-radius: 50%;
+	margin: 0 10px;
+}
+
+#footerBar {
+	width: 60%;
+	/* height: ; */
+
+	flex-wrap: wrap;
+	flex-direction: row;
+	align-content: center;
+	justify-content: space-evenly;
+	align-items: center;
+
+}
+
+.toyotaImg{
+	width : 60%; 
+	max-width : 900px;
+}
+
+#footerBar>a {
+	margin: 0 2px;
+}
+
+#copyright {
+	margin-top: 5px;
+}
+
+/* #copyright {} */
+
+a:link {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+a:hover {
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+a:active {
+	text-decoration: underline;
 }
 
 @media screen and (max-width:500px) {
@@ -696,20 +719,140 @@ img {
 
 }
 
-/* ******** */
-#footer {
-	width: 100%;
-	height: 275px;
-	background-color: #2F2E2E;
-	color: #FFFFFF;
+@media screen and (max-width:700px) and (min-width:300px) {
+	#navBar,#accueil,#services,#histoire,#vide,#contact,#footer {
+		overflow-x: hidden;
+	}
+	
+	#numTelNav {
+		width: 23px;
+	}
 
-	font-weight: 300;
+	.numberTel {
+		display: none;
+		visibility: hidden;
+	}
 
-	flex-direction: column;
-	flex-wrap: nowrap;
-	align-content: center;
-	justify-content: space-evenly;
-	align-items: center;
+	.blocNav{
+		width: 100%;
+	}
+
+	#navBarText{
+		font-size:medium;
+		height: 50px;
+		width: 160px;
+	}
+
+	#accueil {
+		height: 1100px;
+	}
+
+	.toyotaImg{
+		width: 85%;
+	}
+
+	.firstBlock {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.descriptionService {
+		display: none;
+		visibility: hidden;
+	}
+
+	#services {
+		height: 250px;
+		padding: 70px 0;
+	}
+
+	#service {
+		margin: auto
+	}
+
+	#contact {
+		height: 1400px;
+	}
+
+	.blocBlanc2 {
+		width: 450px;
+		height: 1000px;
+	}
+
+	#fifth_SecondItem {
+		height: 800px;
+		flex-direction: column;
+		align-items: center;
+		align-content: space-around;
+	}
+
+	.firstP{
+		width: 350px;
+	}
+
+	.form1{
+		width:310px;
+	}
+
+	#formReservation{
+		width: auto;
+		
+	}
+	.input2div{width: 250px ;}
+	.open-button{
+		left: 230px;
+	}
+
+	.logo{
+		width: 70px;
+	}
+
+	.blocBlanc1{
+		height: 520px;
+		width: 100%;
+	}
+	.p{
+		padding: 0 40px;
+	}
+
+	#ameli{
+		width: 350px;
+	}
+
+	#vide{
+		height: 200px;
+	}
+
+	.blocBlanc2
+	{
+		width: 350px;
+	}
+
+	#rightItem{
+	width: 300px;
+		
+	}
+	.formulaire2{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		align-content: center;
+		justify-content: center;
+		width:100%;
+	}
+	.button22{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		align-content: center;
+		justify-content: center;
+		width: 100%;
+	}
+
+	#myBtn{
+		left:360px;
+	}
+
 }
 
 @media screen and (min-width:800px) and (max-width: 1100px) {
@@ -745,62 +888,4 @@ img {
 		height: 620px;
 	}
 
-}
-
-#footer_logo {
-	width: 100%;
-
-	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: center;
-	margin-bottom: 10px;
-}
-
-.socialLogo1 {
-	width: 35px;
-	height: 35px;
-	background-color: #FFFFFF;
-	border-radius: 50%;
-	margin: 0 10px;
-}
-
-#footerBar {
-	width: 60%;
-	/* height: ; */
-
-	flex-wrap: wrap;
-	flex-direction: row;
-	align-content: center;
-	justify-content: space-evenly;
-	align-items: center;
-
-}
-
-#footerBar>a {
-	margin: 0 2px;
-}
-
-#copyright {
-	margin-top: 5px;
-}
-
-/* #copyright {} */
-
-a:link {
-	color: #FFFFFF;
-	text-decoration: none;
-}
-
-a:visited {
-	color: #FFFFFF;
-	text-decoration: none;
-}
-
-a:hover {
-	cursor: pointer;
-	text-decoration: underline;
-}
-
-a:active {
-	text-decoration: underline;
 }
