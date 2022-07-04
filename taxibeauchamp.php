@@ -5,14 +5,14 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="keywords" content="Taxi Abdel, taxi abdel, taxiabdel, taxi conventionné, transport taxi, taxi ameli, 
-		conventionné taxi, réserver taxi, réserver taxi conventionné, réserver taxi abdel, réservation taxi, 
-		réservation taxi conventionné, réservation taxi abdel, réservation taxi améli, réserver Taxi Abdel, 
-		réservation Taxi Abdel">
-	<meta name="description" content="Un site de réservation en ligne de taxi conventionné, au compte de Taxi Abdel, pour tous types de transport.">
+	<meta name="keywords" content="Taxi Abdel Beauchamp, taxi abdel Beauchamp, taxiabdel Beauchamp, taxi conventionné Beauchamp, transport taxi Beauchamp, taxi ameli Beauchamp, 
+		conventionné taxi Beauchamp, réserver taxi Beauchamp, réserver taxi conventionné Beauchamp, réserver taxi abdel Beauchamp, réservation taxi Beauchamp, 
+		réservation taxi conventionné Beauchamp, réservation taxi abdel Beauchamp, réservation taxi améli Beauchamp, réserver Taxi Abdel Beauchamp, 
+		réservation Taxi Abdel Beauchamp">
+	<meta name="description" content="Un site de réservation en ligne de taxi conventionné Beauchamp, au compte de Taxi Abdel, pour tous types de transport.">
 	<meta name="revised" content="03/03/2002">
 
-	<title>Taxi Abdel</title>
+	<title>Taxi Beauchamp</title>
 
 	<link rel="stylesheet" type="text/css" href="/css/style.css" media="screen" />
 	<link rel="shortcut icon" type="image/x-icon" href="/images/tl-service-conventionne-logo.png" />
@@ -77,7 +77,7 @@
 				</div>
 				<div class="firstP">
 					<p style="letter-spacing: 1px; text-align: justify;">Réservez un taxi
-						conventionné en appelant le <a href="tel:+0631 752852" class="linkNum unselectable"><b>06 31 75 28 52</b></a>, à cette
+						conventionné Beauchamp en appelant le <a href="tel:+0631 752852" class="linkNum unselectable"><b>06 31 75 28 52</b></a>, à cette
 						adresse mail
 						<a href="mailto:taxiabdel1978@gmail.com" class="linkNum unselectable"><b>taxiabdel1978@gmail.com</b></a>
 						ou en quelques
