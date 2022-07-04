@@ -87,6 +87,10 @@
 				</div>
 			</div>
 
+			<div class="toyotaImg DisplayMobile">
+				<img src="/images/toyota_hybride_profile.png" alt="toyota hybride profile">
+			</div>
+
 			<div class="form1">
 				<form action="index.php" method="POST" id="formReservation" class="flex">
 
@@ -181,7 +185,7 @@
 			</div>
 		</div>
 
-		<div class="toyotaImg">
+		<div class="toyotaImg DisplayDesktop">
 			<img src="/images/toyota_hybride_profile.png" alt="toyota hybride profile">
 		</div>
 	</section>
