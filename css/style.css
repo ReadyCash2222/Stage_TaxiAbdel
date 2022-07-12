@@ -138,7 +138,7 @@ ul {
 	justify-content: space-around;
 }
 
-.DisplayMobile{
+.DisplayMobile {
 	display: none;
 }
 
@@ -441,7 +441,7 @@ img {
 }
 
 .blocBlanc1 {
-	width: auto; 
+	width: auto;
 	max-width: 900px;
 	height: 375px;
 	background-color: #FFFFFF;
@@ -675,9 +675,13 @@ img {
 
 }
 
-.toyotaImg{
-	width : 60%; 
-	max-width : 900px;
+details {
+	pointer-events: none;
+}
+
+.toyotaImg {
+	width: 60%;
+	max-width: 900px;
 }
 
 #footerBar>a {
@@ -717,46 +721,57 @@ a:active {
 }
 
 @media screen and (max-width:400px) {
-	#navBarText{
+	#navBarText {
 		width: 140px !important;
 	}
+
 	.blocBlanc2 {
 		width: 320px;
 	}
-	.blocNav{
+
+	.blocNav {
 		padding-top: 0%;
 		margin-bottom: 20px;
 	}
 
 }
-@media screen and (max-width:840px){
+
+@media screen and (max-width:840px) {
 	.firstBlock {
-	flex-direction: column;
-	align-items: center;
-}
+		flex-direction: column;
+		align-items: center;
+	}
 }
 
 @media screen and (max-width:700px) and (min-width:100px) {
 
-	#accueil{
+	#accueil {
 		padding: 0%;
 	}
 
-	.DisplayDesktop{
+	.DisplayDesktop {
 		display: none;
 	}
-	.DisplayMobile{
+
+	.DisplayMobile {
 		display: block;
-		
-	}
-	.toyotaImg{
-		width:85%;
+
 	}
 
-	#navBar,#accueil,#services,#histoire,#vide,#contact,#footer {
+	.toyotaImg {
+		width: 85%;
+	}
+
+	#navBar,
+	#accueil,
+	#services,
+	#histoire,
+	#vide,
+	#contact,
+	#footer {
 		overflow-x: hidden;
 	}
-	
+
 	#numTelNav {
 		width: 23px;
 	}
@@ -766,12 +781,12 @@ a:active {
 		visibility: hidden;
 	}
 
-	.blocNav{
+	.blocNav {
 		width: 100%;
 	}
 
-	#navBarText{
-		font-size:larger;
+	#navBarText {
+		font-size: larger;
 		height: 50px;
 		width: 180px;
 	}
@@ -815,61 +830,58 @@ a:active {
 		align-content: space-around;
 	}
 
-	.firstP{
+	.firstP {
 		width: 350px;
 	}
 
-	.form1{
-		width:310px;
+	.form1 {
+		width: 310px;
 	}
 
-	#formReservation{
+	#formReservation {
 		width: auto;
-		
+
 	}
-	.input2div{width: 250px ;}
-	.open-button{
+
+	.input2div {
+		width: 250px;
+	}
+
+	.open-button {
 		left: 230px;
 	}
 
-	.logo{
+	.logo {
 		width: 70px;
 	}
 
-	.blocBlanc1{
+	.blocBlanc1 {
 		height: 520px;
 		width: 100%;
 	}
-	.p{
+
+	.p {
 		padding: 0 40px;
 	}
 
-	#ameli{
+	#ameli {
 		width: 350px;
 	}
 
-	#vide{
+	#vide {
 		height: 200px;
 	}
 
-	.blocBlanc2
-	{
+	.blocBlanc2 {
 		width: 350px;
 	}
 
-	#rightItem{
-	width: 300px;
-		
+	#rightItem {
+		width: 300px;
+
 	}
-	.formulaire2{
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		align-content: center;
-		justify-content: center;
-		width:100%;
-	}
-	.button22{
+
+	.formulaire2 {
 		display: flex;
 		flex-direction: column;
 		align-items: center;
@@ -878,14 +890,23 @@ a:active {
 		width: 100%;
 	}
 
-	#myBtn{
-		left:360px;
+	.button22 {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		align-content: center;
+		justify-content: center;
+		width: 100%;
+	}
+
+	#myBtn {
+		left: 360px;
 	}
 
 }
 
 @media screen and (max-width: 400px) {
-	#navBarText{
+	#navBarText {
 		font-size: medium;
 		width: 100px;
 	}
