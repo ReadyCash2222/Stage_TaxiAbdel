@@ -5,10 +5,25 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="keywords" content="Taxi Abdel, taxi abdel, taxiabdel, taxi conventionné, transport taxi, taxi ameli, 
-		conventionné taxi, réserver taxi, réserver taxi conventionné, réserver taxi abdel, réservation taxi, 
-		réservation taxi conventionné, réservation taxi abdel, réservation taxi améli, réserver Taxi Abdel, 
-		réservation Taxi Abdel">
+	<meta name="keywords" content="Taxi Abdel, taxi abdel, taxiabdel,
+					taxi conventionné,
+					transport taxi,
+					taxi ameli,
+					conventionné taxi, réserver taxi, réserver taxi conventionné, réserver taxi abdel,
+					réservation taxi, réservation taxi conventionné, réservation taxi abdel, réservation
+					taxi améli, réserver Taxi Abdel, réservation Taxi Abdel, Taxi Abdel Beauchamp, taxi abdel Beauchamp, taxiabdel Beauchamp,
+					taxi conventionné Beauchamp,
+					transport taxi Beauchamp,
+					taxi ameli Beauchamp,
+					conventionné taxi Beauchamp, réserver taxi Beauchamp, réserver taxi conventionné Beauchamp, réserver taxi abdel Beauchamp,
+					réservation taxi Beauchamp, réservation taxi conventionné Beauchamp, réservation taxi abdel Beauchamp, réservation
+					taxi améli Beauchamp, réserver Taxi Abdel Beauchamp, réservation Taxi Abdel Beauchamp, Taxi Abdel Eaubonne, taxi abdel Eaubonne, taxiabdel Eaubonne,
+					taxi conventionné Eaubonne,
+					transport taxi Eaubonne,
+					taxi ameli Eaubonne,
+					conventionné taxi Eaubonne, réserver taxi Eaubonne, réserver taxi conventionné Eaubonne, réserver taxi abdel Eaubonne,
+					réservation taxi Eaubonne, réservation taxi conventionné Eaubonne, réservation taxi abdel Eaubonne, réservation
+					taxi améli Eaubonne, réserver Taxi Abdel Eaubonne, réservation Taxi Abdel Eaubonne">
 	<meta name="description" content="Un site de réservation en ligne de taxi conventionné, au compte de Taxi Abdel, pour tous types de transport.">
 	<meta name="revised" content="03/03/2002">
 
@@ -439,6 +454,12 @@
 			<a href="">
 				<p>Conditions d'utilisation</p>
 			</a>
+			<a href="taxieaubonne.php">
+				<p>Eaubonne</p>
+			</a>
+			<a href="taxibeauchamp.php">
+				<p>Beauchamp</p>
+			</a>
 
 			<details>
 				<summary>Tags</summary>
@@ -448,7 +469,19 @@
 					taxi ameli,
 					conventionné taxi, réserver taxi, réserver taxi conventionné, réserver taxi abdel,
 					réservation taxi, réservation taxi conventionné, réservation taxi abdel, réservation
-					taxi améli, réserver Taxi Abdel, réservation Taxi Abdel</p>
+					taxi améli, réserver Taxi Abdel, réservation Taxi Abdel, Taxi Abdel Beauchamp, taxi abdel Beauchamp, taxiabdel Beauchamp,
+					taxi conventionné Beauchamp,
+					transport taxi Beauchamp,
+					taxi ameli Beauchamp,
+					conventionné taxi Beauchamp, réserver taxi Beauchamp, réserver taxi conventionné Beauchamp, réserver taxi abdel Beauchamp,
+					réservation taxi Beauchamp, réservation taxi conventionné Beauchamp, réservation taxi abdel Beauchamp, réservation
+					taxi améli Beauchamp, réserver Taxi Abdel Beauchamp, réservation Taxi Abdel Beauchamp, Taxi Abdel Eaubonne, taxi abdel Eaubonne, taxiabdel Eaubonne,
+					taxi conventionné Eaubonne,
+					transport taxi Eaubonne,
+					taxi ameli Eaubonne,
+					conventionné taxi Eaubonne, réserver taxi Eaubonne, réserver taxi conventionné Eaubonne, réserver taxi abdel Eaubonne,
+					réservation taxi Eaubonne, réservation taxi conventionné Eaubonne, réservation taxi abdel Eaubonne, réservation
+					taxi améli Eaubonne, réserver Taxi Abdel Eaubonne, réservation Taxi Abdel Eaubonne</p>
 			</details>
 
 		</div>
@@ -458,7 +491,19 @@
 			taxi ameli,
 			conventionné taxi, réserver taxi, réserver taxi conventionné, réserver taxi abdel,
 			réservation taxi, réservation taxi conventionné, réservation taxi abdel, réservation
-			taxi améli, réserver Taxi Abdel, réservation Taxi Abdel</div>
+			taxi améli, réserver Taxi Abdel, réservation Taxi Abdel, Taxi Abdel Beauchamp, taxi abdel Beauchamp, taxiabdel Beauchamp,
+			taxi conventionné Beauchamp,
+			transport taxi Beauchamp,
+			taxi ameli Beauchamp,
+			conventionné taxi Beauchamp, réserver taxi Beauchamp, réserver taxi conventionné Beauchamp, réserver taxi abdel Beauchamp,
+			réservation taxi Beauchamp, réservation taxi conventionné Beauchamp, réservation taxi abdel Beauchamp, réservation
+			taxi améli Beauchamp, réserver Taxi Abdel Beauchamp, réservation Taxi Abdel Beauchamp, Taxi Abdel Eaubonne, taxi abdel Eaubonne, taxiabdel Eaubonne,
+			taxi conventionné Eaubonne,
+			transport taxi Eaubonne,
+			taxi ameli Eaubonne,
+			conventionné taxi Eaubonne, réserver taxi Eaubonne, réserver taxi conventionné Eaubonne, réserver taxi abdel Eaubonne,
+			réservation taxi Eaubonne, réservation taxi conventionné Eaubonne, réservation taxi abdel Eaubonne, réservation
+			taxi améli Eaubonne, réserver Taxi Abdel Eaubonne, réservation Taxi Abdel Eaubonne</div>
 		<div id="copyright">
 			<p>© 2022 par Taxi Abdel. Tous droits réservés.</p>
 		</div>
